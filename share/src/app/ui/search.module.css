@@ -1,0 +1,58 @@
+
+.searchContainer {
+  max-width: 700px; 
+  margin: 20px auto; /* Centers the search bar */
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  padding: 15px;
+}
+
+.filterSelect, .priceInput {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  outline: none;
+}
+
+.filterSelect {
+  flex-grow: 1; 
+}
+
+.priceInput {
+  width: 150px; 
+}
+
+.searchButton {
+  padding: 10px 15px;
+  border: none;
+  background-color: #3c0000; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer;
+  border-radius: 4px; 
+  font-size: 16px;
+  outline: none;
+}
+
+.searchButton:hover {
+  background-color: #6d9c80; 
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filterSelect, .priceInput, .searchButton {
+    width: 100%; 
+    margin-bottom: 8px; 
+  }
+}

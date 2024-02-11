@@ -1,0 +1,96 @@
+.contactPage {
+    text-align: center;
+}
+
+.contactForm {
+    display: block;
+    margin: 10px;
+}
+
+.contactFieldset {
+    display: block;
+    border: 4px solid var(--dark-brown);
+    border-radius: 12px;
+    background-color: var(--deep-blue);
+    padding: 5px;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactFieldset label {
+    text-align: left;
+    display: block;
+    color: var(--light-background);
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.contactFieldset input, .contactFieldset textarea {
+    display: block;
+    font-size: 1rem;
+    border: 3px solid var(--dark-brown);
+    border-radius: 12px;
+    padding: 0.75rem;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    max-width: 30rem;
+    background-color: var(--ligther-green);
+    color: black;
+}
+
+.contactFieldset input:required, .contactFieldset textarea:required {
+    border-left: solid 6px rgba(0,0,0,0.3);
+}
+
+.contactButton {
+    margin-top: 2rem;
+}
+
+.contactSection {
+    background-color: var(--main-green);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    max-width: 50rem;
+    margin-top: 4rem;
+    border-radius: 12px;
+}
+
+.contactSection2 {
+    background-color: var(--deep-blue);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: 3px solid var(--dark-brown);
+    border-radius: 12px;
+}
+
+.contactCard {
+    background-color: var(--light-background);
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid var(--dark-brown);
+    border-radius: 12px;
+}
+
+.googleMap {
+    display: none;
+}
+
+.googleLink {
+    color: blue;
+}
+
+@media screen and (min-width: 70em) {
+    .googleLink {
+        display: none;
+    }
+
+    .googleMap {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
