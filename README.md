@@ -15,7 +15,7 @@ Node.js (v12.0 or higher)
 npm (v6.0 or higher)
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+npm i & npm run dev 
 
 # Contribute
 We welcome contributions to make Tools Share even better. If you have suggestions or want to contribute, please fork the repository and create a pull request.

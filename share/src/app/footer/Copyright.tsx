@@ -7,7 +7,7 @@ const Copyright = () => {
 
   return (
     <p className={styles.copyRight}>
-      © {currentYear} Handcrafted Haven. All rights reserved.
+      © {currentYear} Tools Share. All rights reserved.
     </p>
   );
 };

@@ -1,7 +1,7 @@
-import { Playpen_Sans} from 'next/font/google';
+import { Lato} from 'next/font/google';
 
-export const playpen = Playpen_Sans({
+export const lato = Lato({
     subsets: ['latin'],
-    weight: ['400', '500'],
+    weight: ['300', '400'],
     display: 'swap' 
-})
+});

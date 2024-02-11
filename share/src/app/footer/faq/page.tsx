@@ -10,10 +10,10 @@ export default function FaqsPage() {
       <h1>Frequently Asked Questions</h1>
 
       <section>
-        <h2>Buying on Handcrafted Haven</h2>
+        <h2>Buying on Tools Share</h2>
         <dl>
-          <dt>How do I purchase an item on Handcrafted Haven?</dt>
-          <dd>Browse our collection of handcrafted items, select the one you like, and click the Add to Cart button. Then, proceed to checkout to complete your purchase.</dd>
+          <dt>How do I lease an item on Tools Share?</dt>
+          <dd>Browse our collection of Tools Shareitems, select the one you like, and click the Add to Cart button. Then, proceed to checkout to complete your purchase.</dd>
 
           <dt>Can I contact the artisan directly?</dt>
           <dd>Yes, each artisan profile has a contact form where you can send them a message.</dd>
@@ -21,13 +21,13 @@ export default function FaqsPage() {
       </section>
 
       <section>
-        <h2>Selling on Handcrafted Haven</h2>
+        <h2>Selling on Tools Share</h2>
         <dl>
-          <dt>How can I sell my handcrafted items on Handcrafted Haven?</dt>
-          <dd>To sell on Handcrafted Haven, create a seller account, set up your profile, and list your items along with descriptions and pricing.</dd>
+          <dt>How can I lease my Tools Share items on Tools Share?</dt>
+          <dd>To sell on Tools Share, create a seller account, set up your profile, and list your items along with descriptions and pricing.</dd>
 
-          <dt>What fees does Handcrafted Haven charge for selling?</dt>
-          <dd>Handcrafted Haven charges a small listing fee and a transaction fee when an item sells. For detailed fee information, please refer to our Seller Handbook.</dd>
+          <dt>What fees does Tools Share charge for selling?</dt>
+          <dd>Tools Share charges a small listing fee and a transaction fee when an item sells. For detailed fee information, please refer to our Seller Handbook.</dd>
         </dl>
       </section>
 
@@ -45,7 +45,7 @@ export default function FaqsPage() {
       <section>
         <h2>Returns and Refunds</h2>
         <dl>
-          <dt>What is Handcrafted Havens return policy?</dt>
+          <dt>What is Tools Share return policy?</dt>
           <dd>Our return policy allows for returns within a certain period after receipt, provided the item is in its original condition. Some items may not be eligible for returns due to their nature.</dd>
 
           <dt>How do I request a refund?</dt>

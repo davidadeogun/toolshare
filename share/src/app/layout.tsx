@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import "./ui/globals.css";
-import { playpen } from '@/app/ui/fonts/fonts';
+import { lato } from '@/app/ui/fonts/fonts';
 import Link from 'next/link';
 import { UserProvider } from '@auth0/nextjs-auth0/client';
 import Copyright from './footer/Copyright'; {/*for the Copyright in the footer*/}
@@ -11,10 +11,10 @@ import Navigation from "./ui/navigation";
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Handcrafted Haven',
-    default: 'Handcrafted Haven',
+    template: '%s | Tools Share',
+    default: 'Tools Share',
   },
-  description: 'Handcrafted Haven is a place for handcrafted goods.',
+  description: 'Tools Share is a place for community to share tools.',
 };
 
 export default function RootLayout({
@@ -25,13 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <UserProvider>
-        <body className={`${playpen.className}`}>
+        <body className={`${lato.className}`}>
           <div className={styles.pageWrapper}>
             {/* Navigation Bar - Adjusted to include a logo */}
             <nav className={styles.navbarContainer}>
               <div className={styles.logoContainer}>
                 <Link href="/">
-                  <Image src={logo} alt="Handcrafted Haven Logo" width={200} height={68} />
+                  <Image src={logo} alt="Tools ShareLogo" width={200} height={68} />
                 </Link>
               </div>
               <Navigation></Navigation>

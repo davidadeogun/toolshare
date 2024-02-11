@@ -10,13 +10,13 @@ export default function TermsPage() {
             <h1>Terms and Conditions</h1>
 
             <h2>Introduction</h2>
-            <p>Welcome to Handcrafted Haven! These Terms and Conditions outline the rules and regulations for the use of Handcrafted Havens Website, located at https://handcrafted-haven-azure.vercel.app.</p>
-            <p>By accessing this website, we assume you accept these terms and conditions. Do not continue to use Handcrafted Haven if you do not agree to take all of the terms and conditions stated on this page.</p>
+            <p>Welcome to Tools Share These Terms and Conditions outline the rules and regulations for the use of Tools Share Website, located at https:coming soon.</p>
+            <p>By accessing this website, we assume you accept these terms and conditions. Do not continue to use Tools Share if you do not agree to take all of the terms and conditions stated on this page.</p>
 
             
 
             <h2>Intellectual Property Rights</h2>
-            <p>Other than the content you own, under these Terms, Handcrafted Haven and/or its licensors own all the intellectual property rights and materials contained in this Website.</p>
+            <p>Other than the content you own, under these Terms, Tools Share and/or its licensors own all the intellectual property rights and materials contained in this Website.</p>
             <p>You are granted a limited license only for purposes of viewing the material contained on this Website.</p>
 
             <h2>Restrictions</h2>
@@ -31,11 +31,11 @@ export default function TermsPage() {
                 <li>engaging in any data mining, data harvesting, data extracting or any other similar activity in relation to this Website;</li>
                 <li>using this Website to engage in any advertising or marketing.</li>
             </ul>
-            <p>Certain areas of this Website are restricted from being access by you and Handcrafted Haven may further restrict access by you to any areas of this Website, at any time, in absolute discretion. Any user ID and password you may have for this Website are confidential and you must maintain confidentiality as well.</p>
+            <p>Certain areas of this Website are restricted from being access by you and Tools Share may further restrict access by you to any areas of this Website, at any time, in absolute discretion. Any user ID and password you may have for this Website are confidential and you must maintain confidentiality as well.</p>
 
             <h2>Your Content</h2>
             <p>In these Website Standard Terms and Conditions, &quot;Your Content&quot; shall mean any audio, video text, images or other material you choose to display on this Website. By displaying Your Content, you grant Handcrafted Haven a non-exclusive, worldwide irrevocable, sub licensable license to use, reproduce, adapt, publish, translate and distribute it in any and all media.</p>
-            <p>Your Content must be your own and must not be invading any third-partys rights. Handcrafted Haven reserves the right to remove any of Your Content from this Website at any time without notice.</p>
+            <p>Your Content must be your own and must not be invading any third-partys rights. Tools Share reserves the right to remove any of Your Content from this Website at any time without notice.</p>
 
             
         </main>
