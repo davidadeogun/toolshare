@@ -1,20 +1,24 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Welcome to Tools Share, a community-driven platform built with Next.js, designed to enable members within the same community to rent and borrow tools from one another. Our mission is to promote sustainability and community spirit by providing a platform where users can share tools instead of purchasing new ones. Whether you're looking to borrow a drill for a quick DIY project or you have gardening tools gathering dust in your shed, Tools Share connects you with your neighbors to share resources efficiently.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 1.	Installation process
 2.	Software dependencies
 3.	Latest releases
 4.	API references
 
+# Prerequisites 
+Before you begin, ensure you have the following installed:
+
+Node.js (v12.0 or higher)
+npm (v6.0 or higher)
+
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+We welcome contributions to make Tools Share even better. If you have suggestions or want to contribute, please fork the repository and create a pull request.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Licence
+This project is licensed under the MIT License - see the LICENSE.md file for details.
