@@ -6,7 +6,7 @@ import { UserProvider } from '@auth0/nextjs-auth0/client';
 import Copyright from './footer/Copyright'; {/*for the Copyright in the footer*/}
 import styles from './footer/footer.module.css'; {/*To style the footer*/}
 import Image from 'next/image'; {/*For the logo in the navbar*/}
-import logo from "../../public//transparentlogo.png";
+import logo from "../../public//toolshare-logo_transparent.png";
 import Navigation from "./ui/navigation";
 
 export const metadata: Metadata = {
@@ -31,7 +31,7 @@ export default function RootLayout({
             <nav className={styles.navbarContainer}>
               <div className={styles.logoContainer}>
                 <Link href="/">
-                  <Image src={logo} alt="Tools ShareLogo" width={200} height={68} />
+                  <Image src={logo} alt="Tools ShareLogo" width={200} height={90} />
                 </Link>
               </div>
               <Navigation></Navigation>
