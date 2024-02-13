@@ -1,78 +1,94 @@
+/* Defining Color Variables - ensure these are set according to your theme */
+
+
 .contactPage {
     text-align: center;
+    padding: 20px;
+    margin: 40px auto;
 }
 
 .contactForm {
-    display: block;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .contactFieldset {
-    display: block;
     border: 4px solid var(--dark-brown);
     border-radius: 12px;
     background-color: var(--deep-blue);
-    padding: 5px;
+    padding: 20px;
+    width: 100%;
     max-width: 30rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .contactFieldset label {
     text-align: left;
     display: block;
-    color: var(--light-background);
-    font-weight: bold;
-    padding-top: 1rem;
-}
-
-.contactFieldset input, .contactFieldset textarea {
-    display: block;
-    font-size: 1rem;
-    border: 3px solid var(--dark-brown);
-    border-radius: 12px;
-    padding: 0.75rem;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    width: 90%;
-    max-width: 30rem;
-    background-color: var(--ligther-green);
     color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.contactFieldset input:required, .contactFieldset textarea:required {
-    border-left: solid 6px rgba(0,0,0,0.3);
+.contactFieldset input, 
+.contactFieldset textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--dark-brown);
+    border-radius: 12px;
+   
+    color: var(--dark-brown);
+    margin-bottom: 15px; /* Ensure spacing between inputs */
+}
+
+.contactFieldset input:required, 
+.contactFieldset textarea:required {
+    border-left: solid 6px var(--dark-brown);
 }
 
 .contactButton {
-    margin-top: 2rem;
+    cursor: pointer;
+    background-color: var(--main-green);
+    color: var(--light-background);
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+   
+}
+
+.contactButton:hover {
+    background-color: red;
+    color: var(--light-background);
+}
+
+.contactSection, .contactSection2 {
+    padding: 30px;
+    border-radius: 12px;
+    margin: 4rem auto;
+    max-width: 50rem;
 }
 
 .contactSection {
     background-color: var(--main-green);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-    max-width: 50rem;
-    margin-top: 4rem;
-    border-radius: 12px;
 }
 
 .contactSection2 {
     background-color: var(--deep-blue);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
     border: 3px solid var(--dark-brown);
-    border-radius: 12px;
 }
 
 .contactCard {
     background-color: var(--light-background);
-    margin-left: auto;
-    margin-right: auto;
     border: 3px solid var(--dark-brown);
     border-radius: 12px;
+    padding: 20px;
+    max-width: 30rem;
+    margin: 20px auto;
 }
 
 .googleMap {
@@ -81,16 +97,19 @@
 
 .googleLink {
     color: blue;
+    text-decoration: underline;
 }
 
-@media screen and (min-width: 70em) {
+@media screen and (min-width: 1120px) {
     .googleLink {
         display: none;
     }
 
     .googleMap {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100%;
+        max-width: 50rem;
+        height: 300px; /* Set a fixed height for the map */
+        margin: 0 auto;
     }
 }

@@ -7,20 +7,21 @@
 }
 
 :root {
-  --headline-font: 'Magilio', Georgia, serif;
+  --headline-font:  Georgia, serif;
 
   --max-width: 1100px;
-  --border-radius: 12px;
+  
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   /* palette */
-  --main-green: #405142;
-  --ligther-green: #6d9c80;
+  --main-green: #1b529b;
+  --ligther-green: #2c4494;
   --light-background: #fcf0f0;
-  --deep-blue: #385070;
-  --dark-brown: #3c0000;
+  
+  --dark-brown: #2c4494;
+  --dark-red: #7e1f1f;
 
 }
 
@@ -166,7 +167,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--ligther-green);
+  background-color: red
 }
 
 
@@ -186,3 +187,5 @@ button:hover .arrowIcon {
   border-radius: 5px;
   margin-bottom: .2rem;
 }
+
+

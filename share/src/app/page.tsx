@@ -18,9 +18,9 @@ const Page = () => {
       
         button={true}
       />
-      <h2>Our Community</h2>
+     
        <CardHolder></CardHolder>
-       <h3 className="specialTitle">Learn more about the Individuals leasing out products at Tools Share</h3>
+       <h3 className="specialTitle"></h3>
        <Testimonials></Testimonials>
     </main>
   );

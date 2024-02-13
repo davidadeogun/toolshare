@@ -14,8 +14,8 @@ export default function Page() {
             bannerImage={bannerImg}
             title="Submission Successful"
             ></Banner>
-            <h2>Your concern was successfully submitted.</h2>
-            <h2>Our support team will get back to you within 24 hours.</h2>
+            <h3>Your concern was successfully submitted.</h3>
+            <h4>Our support team will get back to you within 24 hours.</h4>
         </main>
     );
 }
