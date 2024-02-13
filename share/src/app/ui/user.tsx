@@ -24,7 +24,7 @@ export const User = async () => {
         <>
         <section className={styles.section}>
             <h2>Welcome to Your Profile!</h2>
-            <p>Share your stories and experiences with the community and share your new creations.</p>
+            <p>Share your stories and experiences with the community and available tools.</p>
             <div className={styles.features}>
             <div className={styles.userProfileCard}>
                 <Image

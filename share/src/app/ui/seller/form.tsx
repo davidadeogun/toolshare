@@ -86,7 +86,7 @@ export const SellerForm: React.FC<SellerFormProps> = ({ sellerName }) => {
             )}
             <form className={styles.addProductForm}  onSubmit={handleSubmit}>
                     {/* Title of Product */}
-                <label htmlFor="name">Product Name: *</label>
+                <label htmlFor="name">Tool Name: *</label>
                 <input
                     type="text"
                     name="name"
@@ -96,7 +96,7 @@ export const SellerForm: React.FC<SellerFormProps> = ({ sellerName }) => {
                     required
                 />
                 {/* Product Image */}
-                <label htmlFor="image">Image of Product: *</label>
+                <label htmlFor="image">Image of Tool: *</label>
                 <input 
                     type="text" 
                     name="image" 
@@ -140,11 +140,11 @@ export const SellerForm: React.FC<SellerFormProps> = ({ sellerName }) => {
                     required
                 >
                     <option value="" disabled>Select a category</option>
-                    <option value="Kitchen & Dining">Kitchen & Dining</option>
-                    <option value="Home Decor">Home Decor</option>
-                    <option value="Furniture">Furniture</option>
-                    <option value="Office Supplies">Office Supplies</option>
-                    <option value="Bath & Body">Bath & Body</option>
+                    <option value="Pumbling Tools">Pumbling</option>
+                    <option value="Electrical Tools">Electrical</option>
+                    <option value="Landscaping Tools">Landscaping</option>
+                    <option value="Painting Tools">Painting</option>
+                    <option value="Camping Tools">Camping</option>
                 </select>
                 {/* Material of Product */}
                 <label htmlFor="material">Material: *</label>

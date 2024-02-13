@@ -52,7 +52,7 @@ const ProductCard: FC<ProductProps> = ({ productInfo }) => {
             height={200}
             layout="responsive"
           ></Image>
-          <h2 className={styles.seller}>Seller: {product.seller}</h2>
+          <h2 className={styles.seller}>Renter: {product.seller}</h2>
           <p className={styles.pricing}>{`$${product.pricing}`}</p>
           <p className={styles.desc}>{product.description}</p>
           <div className={styles.details}>

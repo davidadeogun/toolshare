@@ -27,7 +27,7 @@ const Card: FC<CardHolderProps> = ({ productList }) => {
     <div className={styles.card}>
       {productList.map(({ id, name, image, seller, description, pricing, category }) => (
         <div key={id} className={styles.cardContent}>
-          <span className={styles.cat}>Category/{category}</span>
+          <span className={styles.cat}>{category}</span>
           <Link
             href={`/catalog/${id}`}>
             <Image src={image} alt={`${name} image`} className={styles.cardImage} width={260} height={280} layout='responsive' />
@@ -35,7 +35,7 @@ const Card: FC<CardHolderProps> = ({ productList }) => {
           </Link>
           <p className={styles.cardDescription}>{description}</p>
           <p className={styles.price}>{`$${pricing}`}</p>
-          <p className={styles.seller}>Made by <i>{seller}</i></p>
+          <p className={styles.seller}>Posted by <i>{seller}</i></p>
         </div>
       ))}
     </div>

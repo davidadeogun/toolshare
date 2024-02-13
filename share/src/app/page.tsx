@@ -15,15 +15,12 @@ const Page = () => {
         bannerImage={bannerImage}
         title="Welcome to Tools Share"
         subtitle="Lease tools within your community"
-        //nb1={nb1.toLocaleString("en-US")}
-       // desc1="Orders Delivered"
-        //nb2={nb2.toLocaleString("en-US")}
-        //desc2="Registered Creators"
+      
         button={true}
       />
-       {/* top 5 best rated products cardholder component */}
+      <h2>Our Community</h2>
        <CardHolder></CardHolder>
-       <h3 className="specialTitle">Learn more about the Companies or Individuals selling products at Tools Share</h3>
+       <h3 className="specialTitle">Learn more about the Individuals leasing out products at Tools Share</h3>
        <Testimonials></Testimonials>
     </main>
   );
