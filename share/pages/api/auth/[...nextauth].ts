@@ -1,3 +1,4 @@
+
 import NextAuth, { NextAuthOptions } from "next-auth";
 import type { Adapter } from "next-auth/adapters";
 import { PrismaAdapter } from "@auth/prisma-adapter";
@@ -30,3 +31,7 @@ export const authConfig = {
 } satisfies NextAuthOptions;
 
 export default NextAuth(authConfig);
+
+
+
+

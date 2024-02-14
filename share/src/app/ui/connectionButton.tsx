@@ -51,7 +51,7 @@ function ConnectionContent() {
   return (
     <div className={styles.btnContainer}>
       <button id="loginBtn" className={styles.loginBtn}>
-        Login Now <ArrowRightIcon className="arrowIcon" />
+        Renting out? Sign up  <ArrowRightIcon className="arrowIcon" />
       </button>
     </div>
   );

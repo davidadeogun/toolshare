@@ -5,13 +5,15 @@ import bannerImg from "../../../public/images/toolspage_banner.jpg";
 
 // get user connection
 import { getServerSession } from "next-auth";
-import { authConfig } from "../../../pages/api/auth/[...nextauth]";
+import { authConfig } from "../../../pages/api/auth/[...nextauth]";  
 import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
-    title: "Seller",
+    title: "Renter",
     description: 'Add new products and view them in the catalog',
   };
+
+
 
 export default async function Seller() {
     const session: any = await getServerSession(authConfig);
@@ -29,3 +31,5 @@ export default async function Seller() {
     );
     }
 }
+
+
