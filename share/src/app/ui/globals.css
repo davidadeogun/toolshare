@@ -100,7 +100,7 @@ li  {
   text-align: center;
   overflow: hidden;
   background-color: #4051421e;
-  padding: 2rem;
+  padding: 5rem;
 }
 
 .bannerContainer h1 {
@@ -110,7 +110,7 @@ li  {
 
 .bannerImg {
   position: relative;
-  height: 450px;
+  height: 700px;
   overflow: hidden;
 }
 
@@ -125,7 +125,7 @@ li  {
 
 .bannerImg img {
   width: 100%;
-  height: 100%;
+  height: 200%;
   object-fit: cover;
 }
 

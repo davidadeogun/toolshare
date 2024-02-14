@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { User } from "../ui/user";
 import Banner from "../ui/banner";
-import bannerImg from "../../../public/images/banner4.jpg";
+import bannerImg from "../../../public/images/toolspage_banner.jpg";
 
 // get user connection
 import { getServerSession } from "next-auth";

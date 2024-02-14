@@ -6,7 +6,7 @@ import Banner from "../ui/banner";
 import bannerImg from "../../../public/images/banner3.jpg"
 
 export const metadata: Metadata = {
-  title: "Catalog",
+  title: "Tools Share Catalog",
 };
 
 
@@ -15,7 +15,7 @@ export default function Catalog() {
     <>
     <Banner 
       bannerImage={bannerImg}
-      title="Catalog"></Banner>
+      title="Tools"></Banner>
     <CatalogCard></CatalogCard>
     </>
   );

@@ -26,8 +26,8 @@ export default function Navigation() {
         <div className={`${styles.navbarLinks} ${isOpen ? styles.show : ''}`}>
             <ul>
                 <li><Link href="/">Home</Link></li>
-                <li><Link href="/catalog">Catalog</Link></li>
-                <li><Link href="/seller">Profile</Link></li>
+                <li><Link href="/catalog">Tools</Link></li>
+                <li><Link href="/seller">Renters</Link></li>
                 <li><Link href="/contact">Contact</Link></li>
             </ul>
         </div>
