@@ -16,7 +16,7 @@
 }
 
 .contactFieldset {
-    border: 4px solid var(--dark-brown);
+    border: 2px solid var(--dark-brown);
     border-radius: 12px;
     background-color: var(--deep-blue);
     padding: 20px;
@@ -44,10 +44,7 @@
     margin-bottom: 15px; /* Ensure spacing between inputs */
 }
 
-.contactFieldset input:required, 
-.contactFieldset textarea:required {
-    border-left: solid 6px var(--dark-brown);
-}
+
 
 .contactButton {
     cursor: pointer;
