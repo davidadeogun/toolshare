@@ -6,7 +6,7 @@ import Link from "next/link";
 export const LoginButton = () => {
   return (
     <div className="buttonContainer">
-      {/* <button
+      {/*<button
         onClick={async () => {
           await signIn(undefined, { callbackUrl: '/profile' });
         }}
@@ -15,7 +15,7 @@ export const LoginButton = () => {
         Sign In
       </button> */}
       <button>
-        <Link
+      <Link
           href="/api/auth/login"
         >
         </Link>
