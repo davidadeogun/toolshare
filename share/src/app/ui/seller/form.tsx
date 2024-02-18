@@ -3,8 +3,7 @@
 import styles from '@/app/ui/seller/form.module.css';
 import React, { useState, FormEvent, useEffect } from 'react';
 import axios from 'axios';
-// import { redirect } from 'next/navigation'
-// import { useRouter } from 'next/navigation';
+
  
 interface SellerFormProps {
     sellerName: string;
@@ -28,6 +27,8 @@ interface SellerFormProps {
     comment: string;
 }
 
+
+
  
 export const SellerForm: React.FC<SellerFormProps> = ({ sellerName }) => {
     const [name, setName] = useState("");
@@ -41,7 +42,7 @@ export const SellerForm: React.FC<SellerFormProps> = ({ sellerName }) => {
     const [sizes, setSizes] = useState("");
     const [showMessage, setShowMessage] = useState(false);
 
-    // const router = useRouter();
+ 
  
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
       e.preventDefault();
@@ -140,6 +141,7 @@ export const SellerForm: React.FC<SellerFormProps> = ({ sellerName }) => {
                     <option value="Landscaping Tools">Landscaping</option>
                     <option value="Painting Tools">Painting</option>
                     <option value="Camping Tools">Camping</option>
+                    <option value="Camping Tools">Recreation</option>
                 </select>
                 {/* Material of Product */}
                 <label htmlFor="material">Material: *</label>
