@@ -20,7 +20,6 @@ export const LoginButton = () => {
         >
         </Link>
       </button>
-
     </div>
   );
 };
