@@ -1,6 +1,6 @@
 
 .searchContainer {
-  max-width: 900px; 
+  max-width: 1000px; 
   margin: 40px auto; /* Centers the search bar */
   display: flex;
   flex-wrap: wrap; 
@@ -24,11 +24,11 @@
 
 .filterSelect {
   flex-grow: 1; 
-  width: 200px; 
+  width: 180px; 
 }
 
 .priceInput {
-  width: 200px; 
+  width: 150px; 
 }
 
 .searchButton {

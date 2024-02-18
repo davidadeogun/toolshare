@@ -18,7 +18,6 @@ npm (v6.0 or higher)
 npm i & npm run dev 
 
 # Contribute
-We welcome contributions to make Tools Share even better. If you have suggestions or want to contribute, please fork the repository and create a pull request.
+Contributions to make Tools Share application even better are welcome. If you have suggestions or want to contribute, please fork the repository and create a pull request.
 
-# Licence
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+

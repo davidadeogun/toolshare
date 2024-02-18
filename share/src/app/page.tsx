@@ -18,7 +18,7 @@ const Page = () => {
       />
      
        <CardHolder></CardHolder>
-       <h3 className="specialTitle"></h3>
+       {/*<h3 className="specialTitle"></h3>*/}
        <Testimonials></Testimonials>
     </main>
   );

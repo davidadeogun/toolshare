@@ -54,12 +54,7 @@ export const SellerForm: React.FC<SellerFormProps> = ({ sellerName }) => {
             if (response.status === 200) {
                 setShowMessage(true);
             }
-            // working on redirection
-            // const newproductId = response.data.id;
-            // redirect(`/catalog/${newproductId}`);
-            // router.push(`/catalog/${newproductId}`);
-
-            // reset field and display success msg
+          
             setName("");
             setDescription("");
             setCategory("");
@@ -155,19 +150,24 @@ export const SellerForm: React.FC<SellerFormProps> = ({ sellerName }) => {
                     value={material}
                     onChange={(e) => setMaterial(e.target.value)}
                     required
-                    placeholder="What your product is made of..."
+                    placeholder="What is the tool made of..."
                 />
                 {/* Size of Product */}
-                <label htmlFor="size">Size: *</label>
-                <input
-                    type="text"
-                    name="size"
-                    id="size"
-                    value={sizes}
-                    onChange={(e) => setSizes(e.target.value)}
-                    required
-                    placeholder="Dimensions, Weight, and/or Amount"
-                />
+<label htmlFor="size">Size: *</label>
+<select 
+    name="size" 
+    id="size"
+    value={sizes}
+    onChange={(e) => setSizes(e.target.value)}
+    required
+>
+    <option value="">Select a size</option>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="extra large">Extra Large</option>
+</select>
+
                 <button type="submit" className={styles.productButton}>Create Product</button>
             </form>
             </fieldset>

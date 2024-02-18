@@ -42,7 +42,7 @@ export const User = async () => {
             </div>
             <div className={formStyles.formContainer}>
                 <h3>Share Your Story</h3>
-                <p> <strong> <i>Your crafting journey is unique to you. Why not share it with us?</i> </strong><br /> Enhance your presence within our community and connect with future buyers by sharing your personal story.</p>
+                <p> Enhance your presence within our community and connect with future buyers by sharing your personal story.</p>
             <StoryForm userId={userIdentifier}></StoryForm> 
             </div>
             </div>

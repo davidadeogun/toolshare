@@ -42,7 +42,7 @@ const ProductCard: FC<ProductProps> = ({ productInfo }) => {
     <div>
       {product && (
         <div key={product.id}>
-          <span className={styles.category}>Category/{product.category}</span>
+          <span className={styles.category}>Category:{product.category}</span>
           <h1 className={styles.productName}>{product.name}</h1>
           <Image
             className={styles.productImage}
