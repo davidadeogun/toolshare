@@ -66,7 +66,7 @@ export const CardHolder: FC = () => {
 
   return (
     <>
-      <h3 className="specialTitle">Top 5 Most Rented Tools</h3>
+      <h3 className="specialTitle">Top 5 Popular Tools</h3>
       <div className={styles.outline}>
         {loading ? (
           // show loader while images are loading
