@@ -17,7 +17,7 @@ export const User = async () => {
     }
     const userImage = session.user.image ?? defaultImage;
     // console.log(session); 
-    const username = session.user.name ?? "seller"
+    const username = session.user.name ?? "Renter"
     const userIdentifier = session.user.email ?? ""
 
     return (
@@ -42,7 +42,7 @@ export const User = async () => {
             </div>
             <div className={formStyles.formContainer}>
                 <h3>Share Your Story</h3>
-                <p> Enhance your presence within our community and connect with future buyers by sharing your personal story.</p>
+                <p> Enhance your presence within your community and connect with future buyers by sharing your personal story.</p>
             <StoryForm userId={userIdentifier}></StoryForm> 
             </div>
             </div>

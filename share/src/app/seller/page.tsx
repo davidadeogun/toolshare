@@ -24,7 +24,7 @@ export default async function Seller() {
         <main>
             <Banner
             bannerImage={bannerImg}
-            title="Seller Profile"
+            title="Renter Profile"
             ></Banner>
             <User></User>
         </main>

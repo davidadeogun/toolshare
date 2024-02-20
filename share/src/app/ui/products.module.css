@@ -22,7 +22,7 @@
  font-size: large;
 }
 .productImage {
-  border-radius: 8px;
+  border-radius: 6px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   display: block;
   margin: .5rem auto;
